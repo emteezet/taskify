@@ -10,6 +10,7 @@ import CardDesc from './CardDesc';
 import Price from './Price'
 import Newsletter from './Newsletter';
 import Features from './Features';
+import Testimonial from './Testimonial';
 
 function App() {
 

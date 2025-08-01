@@ -13,6 +13,21 @@
     border-radius: 10px;
     border:1px solid var(--border-color);
     transition: .3s ease-in-out;
+
+
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: large;
+        line-height: 40px;
+    }
+
+    h3{
+        color: var(--text-muted);
+    }
 }
 
 /* .Price-Desc button{
