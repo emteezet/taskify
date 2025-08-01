@@ -1,4 +1,4 @@
-import TestimonialCard from "./TestimonialCard";
+import TestimonialCard from "./TestiominialCard";
 import './Testimonial.css';
 import AminaImg from './assets/Amina.jpg'
 import KateImg from './assets/Kate.jpg'
