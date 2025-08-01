@@ -1,0 +1,121 @@
+
+.header-section{
+    padding: 10px 40px;
+    border-bottom: 2px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--bg-main);
+
+}
+
+.active{
+     color: var(--color-primary);
+}
+
+
+.header-section .header-nav-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  
+ 
+}
+
+.Nav-List{
+    background-color: var(--bg-main);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 30%;
+    max-width: 300px;
+    height: 100vh;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right .3s ease-in-out;
+
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+    &:hover{
+        color: var(--color-primary);
+
+    }
+}
+
+.header-nav-details .logo img{
+    color: var(--color-primary);
+    margin-right: 50PX;
+    cursor: pointer;
+
+}
+
+ .menu-btn{
+    display: none;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+
+
+
+@media  (width < 768px) {
+    nav ul{
+        display: none;
+        
+        /* position: absolute;
+        top: 35px;
+        right:40px ;
+        background-color: var(--bg-main);
+        border-left: 2px solid var(--border-color);
+        padding: 10px;
+        width: 150px;
+        height: 100dvh;
+        box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.1);
+        transition: .3s ease-in-out; */
+
+
+    }
+
+    
+    .header-section .header-nav-details{
+        justify-content: space-between;
+    }
+
+
+
+    .menu-btn{
+    display: block;
+    transition: .3s ease-in-out;
+    /* position: absolute;
+    right: 0; */
+    /* margin-left: 150px; */
+}
+
+
+
+
+
+    /* .hero-nav-details {
+        justify-content: space-between;
+        background-color: aqua;
+    } */
+}

@@ -1,0 +1,74 @@
+.Newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.News-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.News-header p, h1{
+    margin: 5px;
+}
+
+
+
+.Newsletter-details{
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px 40px;
+    max-width: 600px;
+    width: 100vw;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+
+
+.Newsletter input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Newsletter button {
+    background-color: var(--color-tertiary);
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+
+
+    &:hover{
+        transform: scale(1.05);
+    }
+
+}
+
+.Newsletter .news-search-btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+
+}

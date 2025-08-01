@@ -1,0 +1,17 @@
+:root {
+  /* Primary Brand Colors */
+  --color-primary: #6C63FF;     /* Royal Purple */
+  --color-secondary: #FF6584;   /* Soft Pink */
+  --color-tertiary: #3F3D56;    /* Deep Indigo */
+
+  /* Backgrounds */
+  --bg-main: #F8F8FC;           /* Light Gray Background */
+  --bg-card: #FFFFFF;           /* White for Cards */
+
+  /* Text Colors */
+  --text-primary: #1A1A1A;      /* Charcoal Black */
+  --text-muted: #7D7D7D;        /* Mid Gray for Subtext */
+
+  /* Borders */
+  --border-color: #E0E0E0;      /* Light Gray Borders */
+}

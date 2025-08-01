@@ -1,0 +1,19 @@
+.Testimonial-section{
+    border-bottom: 2px solid var(--border-color) ;
+    padding: 50px;
+}
+
+
+
+.Testimonial-Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .Test-cards{
+    display: flex;
+    flex-wrap: wrap;
+} */

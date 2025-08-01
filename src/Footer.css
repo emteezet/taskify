@@ -1,0 +1,23 @@
+.foot-sec{
+    background-color: var(--color-primary);
+    /* position: absolute;
+    top: 100%; */
+    width: 100%;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-tertiary);
+    margin-top: 50px;
+    gap: 10px;
+
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.foot-sec p{
+    color: var(--color-tertiary);
+}
