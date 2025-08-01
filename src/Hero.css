@@ -23,6 +23,12 @@
         width: 100%;
 
 }
+
+    
+        .hero-header{
+            justify-content: center;
+            align-items: center;
+        }
     }
 
 .hero-svg{
