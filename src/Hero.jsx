@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="hero-details">
                 
                 <div className="hero-svg">
-                    
+
                     <img src={mobileapp} alt="mobileapp" />
                 </div>
                 

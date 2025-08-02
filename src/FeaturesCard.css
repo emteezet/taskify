@@ -42,4 +42,10 @@
     align-items: center;
     justify-content: center;
     
+    
+    h1{
+        color: var(--text-muted);
+        margin-bottom: 30px;
+    }
+    
 }

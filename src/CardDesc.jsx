@@ -13,7 +13,7 @@ const CardDesc = () => {
 
  const headerStyle={
         textAlign: 'center',
-        // fontSize:'44px',
+        color: 'var(--text-muted)',
     }
 
     // Data for plan pricing

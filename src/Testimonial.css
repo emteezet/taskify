@@ -1,6 +1,13 @@
 .Testimonial-section{
     border-bottom: 2px solid var(--border-color) ;
     padding: 50px;
+
+
+    
+    h1{
+        color: var(--text-muted);
+        margin-bottom: 30px;
+    }
 }
 
 
