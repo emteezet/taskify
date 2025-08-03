@@ -47,11 +47,12 @@ nav ul {
     position: fixed;
     top: 50px;
     right: 0;
-    width: 30%;
+    width: 30vw;
     max-width: 300px;
     height: 100vh;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     transition: right .3s ease-in-out;
+    z-index: 999;
 
 }
 
