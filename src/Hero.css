@@ -7,6 +7,18 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+
+
+    .hero-svg{
+        width: 100%;
+    }
+
+    .hero-header{
+        width: 100%;
+    }
+    .hero-btns{
+        justify-content: center;
+    }
    
 }
 
@@ -34,7 +46,8 @@
 .hero-svg{
     /* background-color: yellow; */
     /* overflow: hidden; */
-    width: 50%;
+    width: 100vw;
+    min-width: 500px;
 }
 
 .hero-header{

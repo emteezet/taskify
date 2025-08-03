@@ -1,11 +1,19 @@
 import apple from './assets/appstore.png';
 import playstore from './assets/playstore.png';
+import download from './assets/download.png'
 import './Download.css'
 
 
 const Download = () => {
     return ( 
+        <>
+        
         <section className="Download" id='download'>
+
+            <div className="header-image">
+                <img src={download} alt="download image phone" />
+                
+            </div>
         
             <div className="download-header">
                 <h1>Download This App</h1>
@@ -20,11 +28,10 @@ const Download = () => {
                 </div>
             </div>
 
-            <div className="header-image">
-                2
-                
-            </div>
+            
         </section>
+
+        </>
 
 
      );

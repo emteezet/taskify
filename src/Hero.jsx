@@ -1,4 +1,4 @@
-import mobileapp from './assets/Mobileapp.svg';
+import mobileapp from './assets/Phone Task.svg';
 import './Hero.css';
 
 
