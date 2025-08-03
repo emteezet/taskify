@@ -10,8 +10,16 @@
 }
 
 .active{
-     color: var(--color-primary);
+     background-color: var(--color-primary);
+     border-radius: 5px;
+     color: white;
 }
+
+/* .NavLink{
+     background-color: var(--color-primary);
+     border-radius: 5px;
+     color: white;
+} */
 
 
 .header-section .header-nav-details{
@@ -53,7 +61,12 @@ nav ul li{
     padding: 0px 10px;
     font-weight: 600;
     cursor: pointer;
-    transition: .3s ease-in-out;
+
+
+    a{
+        padding:  10px 20px;
+        transition: all  .3s ease-in-out;
+    }
 
     &:hover{
         color: var(--color-primary);

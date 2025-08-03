@@ -1,9 +1,12 @@
-import {Link} from 'react-scroll'
+import {Link as ScrollLink} from 'react-scroll'
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 import taskifyLogo from './assets/TASKIFY LOGO.svg';
 import {FaBars, FaCalendar, FaCross, FaTimes,} from 'react-icons/fa';
 import { TbFlagCancel } from 'react-icons/tb';
 import { useState } from 'react';
+// import { Download } from 'lucide-react';
+// import Download from './Download';
 
 
 
@@ -30,22 +33,22 @@ const Header = () => {
                 
                     <nav className='header-nav-details'>
                             <div className="logo">                    
-                                <Link to = 'hero'  smooth={true} duration={200}   offset={-70}> <img src= {taskifyLogo} alt="Taskify Logo" width={100}  /></Link>
+                              <img src= {taskifyLogo} alt="Taskify Logo" width={100}  /> 
                             </div>
                             
                             
                        <ul className={ menuBar? 'Nav-List' : ''}>
                             <li>
-                                <Link to='hero' activeClass='active' smooth={true} duration={200}  spy={true} offset={-100} >Home</Link>
+                                <NavLink to='/' >Home</NavLink>
                             </li>
                              <li>
-                                <Link to='feat' activeClass='active' smooth={true} duration={200}  spy={true} offset={-70} >Features</Link>
+                                <ScrollLink to='feat' activeClass='active' smooth={true} duration={200}  spy={true} offset={-70} >Features</ScrollLink>
                             </li>
                              <li>
-                                <Link to='price' activeClass='active' smooth={true} duration={200}  spy={true} offset={-150} >Pricing </Link>
+                                <ScrollLink to='price' activeClass='active' smooth={true} duration={200}  spy={true} offset={-150} >Pricing </ScrollLink>
                             </li>
                              <li>
-                                <a>Download</a>
+                               <NavLink to='/download' > Download </NavLink>
                             </li>
                             
                        </ul>
