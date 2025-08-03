@@ -32,15 +32,13 @@
 
         .hero-svg{
         overflow: hidden;
-        width: 100%;
+        width: 100vw;
 
 }
 
-    
-        .hero-header{
-            justify-content: center;
-            align-items: center;
-        }
+    .hero-header{
+        justify-content: center;
+        align-items: center;
     }
 
 .hero-svg{
@@ -135,6 +133,10 @@
         .hero-header{
             justify-content: center;
             align-items: center;
+        }
+
+        .hero-svg{
+            width: 100vw;
         }
 
         
