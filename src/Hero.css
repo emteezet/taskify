@@ -137,6 +137,7 @@
 
         .hero-svg{
             width: 100vw;
+            overflow: hidden;
         }
 
         
