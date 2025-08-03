@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 import taskifyLogo from './assets/TASKIFY LOGO.svg';
 import {FaBars, FaCalendar, FaCross, FaTimes,} from 'react-icons/fa';
-import { TbFlagCancel } from 'react-icons/tb';
+import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
 // import { Download } from 'lucide-react';
 // import Download from './Download';
@@ -14,6 +14,9 @@ import { useState } from 'react';
 const Header = () => {
 
     const [menuBar, setMenuBar] = useState(false);
+
+    const location = useLocation();
+    const isHome = location.pathname === '/';
 
     const toggle = ()=>{
         setMenuBar(!menuBar);
@@ -41,12 +44,20 @@ const Header = () => {
                             <li>
                                 <NavLink to='/' >Home</NavLink>
                             </li>
+                            
+
+                            {isHome && (
+                                <>
+                                <li>
+                                    <ScrollLink to='feat' activeClass='scroll-active' smooth={true} duration={200}  spy={true} offset={-70} >Features</ScrollLink>
+                                </li>
                              <li>
-                                <ScrollLink to='feat' activeClass='active' smooth={true} duration={200}  spy={true} offset={-70} >Features</ScrollLink>
+                                <ScrollLink to='price' activeClass='scroll-active' smooth={true} duration={200}  spy={true} offset={-150} >Pricing </ScrollLink>
                             </li>
-                             <li>
-                                <ScrollLink to='price' activeClass='active' smooth={true} duration={200}  spy={true} offset={-150} >Pricing </ScrollLink>
-                            </li>
+                            </>
+                            
+                            )}
+                             
                              <li>
                                <NavLink to='/download' > Download </NavLink>
                             </li>
