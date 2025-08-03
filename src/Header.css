@@ -1,5 +1,6 @@
 
 .header-section{
+    width: 100%;
     padding: 10px 40px;
     border-bottom: 2px solid var(--border-color);
     position: sticky;
@@ -9,7 +10,9 @@
 
 }
 
-.active{
+
+.active,
+.scroll-active {
      background-color: var(--color-primary);
      border-radius: 5px;
      color: white;
@@ -35,9 +38,6 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    offset: -70px;
-  
- 
 }
 
 .Nav-List{
@@ -92,7 +92,7 @@ nav ul li{
 
 
 
-@media  (width < 768px) {
+@media  (width < 787px) {
     nav ul{
         display: none;
         
